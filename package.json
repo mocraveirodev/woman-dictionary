@@ -1,0 +1,11 @@
+{
+  "name": "woman-dictionary",
+  "version": "1.0.0",
+  "author": "Monica Craveiro <craveiromonica@gmail .com>",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
