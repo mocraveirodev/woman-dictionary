@@ -50,7 +50,7 @@ Content-Type: application/json
 
 ###
 
-PATCH http://localhost:3333/women/65fc5edde31a3f2fe7f3ec7d
+PATCH http://localhost:3333/women/65fcc01c1453ddca7574ef50
 Content-Type: application/json
 
 {
@@ -59,4 +59,16 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/women/65fc6cc24a5b045f2f515bcd
+DELETE http://localhost:3333/women/65fcc01c1453ddca7574ef50
+
+###
+
+GET http://localhost:3333/hello
+
+###
+
+GET http://localhost:3333/time
+
+###
+
+GET http://localhost:3333/woman

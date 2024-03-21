@@ -1,4 +1,5 @@
 GET https://woman-dictionary.onrender.com/women
+GET https://woman-dictionary.onrender.com/women
 
 ###
 
@@ -8,18 +9,67 @@ Content-Type: application/json
 {
     "name": "PachiCodes",
     "minibio": "DevRel",
-    "url": "https://github.com/pachicodes"
+    "url": "https://avatars.githubusercontent.com/u/44537285?v=4",
+    "quote": "Que o Deno esteja com você!"
 }
 
 ###
 
-PATCH https://woman-dictionary.onrender.com/women/1
+POST https://woman-dictionary.onrender.com/women
 Content-Type: application/json
 
 {
-    "minibio": "Embaixadora da Progra{m}aria"
+    "name": "Monica Craveiro",
+    "minibio": "Desenvolvedora Back-end",
+    "url": "https://avatars.githubusercontent.com/u/39744983?v=4",
+    "quote": "Preciso de emprego!"
 }
 
 ###
 
-DELETE https://woman-dictionary.onrender.com/women/2
+POST https://woman-dictionary.onrender.com/women
+Content-Type: application/json
+
+{
+    "name": "Letícia 'Levxyca'",
+    "minibio": "Community manager",
+    "url": "https://avatars.githubusercontent.com/u/19956731?v=4",
+    "quote": "To com sono!"
+}
+
+###
+
+POST https://woman-dictionary.onrender.com/women
+Content-Type: application/json
+
+{
+    "name": "Muié aleatória",
+    "minibio": "full do neida",
+    "url": "ta errado",
+    "quote": "sai daquiiiii"
+}
+
+###
+
+PATCH https://woman-dictionary.onrender.com/women/65fcc01c1453ddca7574ef50
+Content-Type: application/json
+
+{
+    "minibio": "Desenvolvedora Back-end e Embaixadora da Progra{m}aria"
+}
+
+###
+
+DELETE https://woman-dictionary.onrender.com/women/65fcc01c1453ddca7574ef50
+
+###
+
+GET https://woman-dictionary.onrender.com/hello
+
+###
+
+GET https://woman-dictionary.onrender.com/time
+
+###
+
+GET https://woman-dictionary.onrender.com/woman
