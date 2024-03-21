@@ -1,0 +1,25 @@
+GET http://localhost:3333/women
+
+###
+
+POST http://localhost:3333/women
+Content-Type: application/json
+
+{
+    "name": "PachiCodes",
+    "minibio": "DevRel",
+    "url": "https://github.com/pachicodes"
+}
+
+###
+
+PATCH http://localhost:3333/women/1
+Content-Type: application/json
+
+{
+    "minibio": "Embaixadora da Progra{m}aria"
+}
+
+###
+
+DELETE http://localhost:3333/women/2
