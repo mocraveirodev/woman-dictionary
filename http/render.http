@@ -1,8 +1,8 @@
-GET http://localhost:3333/women
+GET https://woman-dictionary.onrender.com/women
 
 ###
 
-POST http://localhost:3333/women
+POST https://woman-dictionary.onrender.com/women
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
 
 ###
 
-PATCH http://localhost:3333/women/1
+PATCH https://woman-dictionary.onrender.com/women/1
 Content-Type: application/json
 
 {
@@ -22,4 +22,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/women/2
+DELETE https://woman-dictionary.onrender.com/women/2

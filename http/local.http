@@ -1,0 +1,62 @@
+GET http://localhost:3333/women
+
+###
+
+POST http://localhost:3333/women
+Content-Type: application/json
+
+{
+    "name": "PachiCodes",
+    "minibio": "DevRel",
+    "url": "https://avatars.githubusercontent.com/u/44537285?v=4",
+    "quote": "Que o Deno esteja com você!"
+}
+
+###
+
+POST http://localhost:3333/women
+Content-Type: application/json
+
+{
+    "name": "Monica Craveiro",
+    "minibio": "Desenvolvedora Back-end",
+    "url": "https://avatars.githubusercontent.com/u/39744983?v=4",
+    "quote": "Preciso de emprego!"
+}
+
+###
+
+POST http://localhost:3333/women
+Content-Type: application/json
+
+{
+    "name": "Letícia 'Levxyca'",
+    "minibio": "Community manager",
+    "url": "https://avatars.githubusercontent.com/u/19956731?v=4",
+    "quote": "To com sono!"
+}
+
+###
+
+POST http://localhost:3333/women
+Content-Type: application/json
+
+{
+    "name": "Muié aleatória",
+    "minibio": "full do neida",
+    "url": "ta errado",
+    "quote": "sai daquiiiii"
+}
+
+###
+
+PATCH http://localhost:3333/women/65fc5edde31a3f2fe7f3ec7d
+Content-Type: application/json
+
+{
+    "minibio": "Desenvolvedora Back-end e Embaixadora da Progra{m}aria"
+}
+
+###
+
+DELETE http://localhost:3333/women/65fc6cc24a5b045f2f515bcd
