@@ -18,10 +18,10 @@ POST http://localhost:3333/mulheres
 Content-Type: application/json
 
 {
-    "nome": "PachiCodes",
-    "imagem": "https://github.com/pachicodes.png",
-    "minibio": "DevRel",
-    "citacao": "Que o Deno esteja com você!"
+    "nome": "Monica Craveiro",
+    "imagem": "https://github.com/mocraveirodev.png",
+    "minibio": "Desenvolvedora Back-end",
+    "citacao": "#VamosJuntes"
 }
 
 ###
@@ -30,10 +30,10 @@ POST http://localhost:3333/mulheres
 Content-Type: application/json
 
 {
-    "nome": "Monica Craveiro",
-    "imagem": "https://github.com/mocraveirodev.png",
-    "minibio": "Desenvolvedora Back-end",
-    "citacao": "#VamosJuntes"
+    "nome": "PachiCodes",
+    "imagem": "https://github.com/pachicodes.png",
+    "minibio": "DevRel",
+    "citacao": "Que o Deno esteja com você!"
 }
 
 ###
