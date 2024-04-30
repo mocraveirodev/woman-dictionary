@@ -1,56 +1,68 @@
-GET http://localhost:3333/women
+GET http://localhost:3333/ola
 
 ###
 
-POST http://localhost:3333/women
+GET http://localhost:3333/mulher
+
+###
+
+GET http://localhost:3333/mulheres
+
+###
+
+GET http://localhost:3333/hora
+
+###
+
+POST http://localhost:3333/mulheres
 Content-Type: application/json
 
 {
-    "name": "PachiCodes",
+    "nome": "PachiCodes",
+    "imagem": "https://github.com/pachicodes.png",
     "minibio": "DevRel",
-    "url": "https://avatars.githubusercontent.com/u/44537285?v=4",
-    "quote": "Que o Deno esteja com você!"
+    "citacao": "Que o Deno esteja com você!"
 }
 
 ###
 
-POST http://localhost:3333/women
+POST http://localhost:3333/mulheres
 Content-Type: application/json
 
 {
-    "name": "Monica Craveiro",
+    "nome": "Monica Craveiro",
+    "imagem": "https://github.com/mocraveirodev.png",
     "minibio": "Desenvolvedora Back-end",
-    "url": "https://avatars.githubusercontent.com/u/39744983?v=4",
-    "quote": "Preciso de emprego!"
+    "citacao": "#VamosJuntes"
 }
 
 ###
 
-POST http://localhost:3333/women
+POST http://localhost:3333/mulheres
 Content-Type: application/json
 
 {
-    "name": "Letícia 'Levxyca'",
+    "nome": "Letícia 'Levxyca'",
+    "imagem": "https://github.com/levxyca.png",
     "minibio": "Community manager",
-    "url": "https://avatars.githubusercontent.com/u/19956731?v=4",
-    "quote": "To com sono!"
+    "citacao": "Adoro fazer live coding."
 }
 
 ###
 
-POST http://localhost:3333/women
+POST http://localhost:3333/mulheres
 Content-Type: application/json
 
 {
-    "name": "Muié aleatória",
-    "minibio": "full do neida",
-    "url": "ta errado",
-    "quote": "sai daquiiiii"
+    "nome": "Mulher para deletar",
+    "imagem": "sem imagem",
+    "minibio": "sem minibio",
+    "citacao": "sem citação"
 }
 
 ###
 
-PATCH http://localhost:3333/women/65fcc01c1453ddca7574ef50
+PATCH http://localhost:3333/mulheres/66312aaabaca76007383f362
 Content-Type: application/json
 
 {
@@ -59,16 +71,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/women/65fcc01c1453ddca7574ef50
-
-###
-
-GET http://localhost:3333/hello
-
-###
-
-GET http://localhost:3333/time
-
-###
-
-GET http://localhost:3333/woman
+DELETE http://localhost:3333/mulheres/66312aecbaca76007383f368

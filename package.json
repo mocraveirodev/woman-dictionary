@@ -1,20 +1,22 @@
 {
-  "name": "woman-dictionary",
+  "name": "projeto-backend",
   "version": "1.0.0",
+  "description": "",
   "author": "Monica Craveiro <craveiromonica@gmail .com>",
-  "main": "index.js",
+  "main": "src/server.js",
   "license": "MIT",
-  "type": "module",
+  "type": "module", 
+  "keywords": [],
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.0",
-    "mongoose": "^8.2.2",
-    "uuid": "^9.0.1"
+    "mongoose": "^8.2.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
