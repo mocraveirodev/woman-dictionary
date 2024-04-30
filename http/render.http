@@ -1,57 +1,56 @@
-GET https://woman-dictionary.onrender.com/women
-GET https://woman-dictionary.onrender.com/women
+GET https://woman-dictionary.onrender.com/mulheres
 
 ###
 
-POST https://woman-dictionary.onrender.com/women
+POST https://woman-dictionary.onrender.com/mulheres
 Content-Type: application/json
 
 {
-    "name": "PachiCodes",
+    "nome": "PachiCodes",
+    "imagem": "https://github.com/pachicodes.png",
     "minibio": "DevRel",
-    "url": "https://avatars.githubusercontent.com/u/44537285?v=4",
-    "quote": "Que o Deno esteja com você!"
+    "citacao": "Que o Deno esteja com você!"
 }
 
 ###
 
-POST https://woman-dictionary.onrender.com/women
+POST https://woman-dictionary.onrender.com/mulheres
 Content-Type: application/json
 
 {
-    "name": "Monica Craveiro",
+    "nome": "Monica Craveiro",
+    "imagem": "https://github.com/mocraveirodev.png",
     "minibio": "Desenvolvedora Back-end",
-    "url": "https://avatars.githubusercontent.com/u/39744983?v=4",
-    "quote": "Preciso de emprego!"
+    "citacao": "#VamosJuntes"
 }
 
 ###
 
-POST https://woman-dictionary.onrender.com/women
+POST https://woman-dictionary.onrender.com/mulheres
 Content-Type: application/json
 
 {
-    "name": "Letícia 'Levxyca'",
+    "nome": "Letícia 'Levxyca'",
+    "imagem": "https://github.com/levxyca.png",
     "minibio": "Community manager",
-    "url": "https://avatars.githubusercontent.com/u/19956731?v=4",
-    "quote": "To com sono!"
+    "citacao": "Adoro fazer live coding."
 }
 
 ###
 
-POST https://woman-dictionary.onrender.com/women
+POST https://woman-dictionary.onrender.com/mulheres
 Content-Type: application/json
 
 {
-    "name": "Muié aleatória",
-    "minibio": "full do neida",
-    "url": "ta errado",
-    "quote": "sai daquiiiii"
+    "nome": "Mulher para deletar",
+    "imagem": "sem imagem",
+    "minibio": "sem minibio",
+    "citacao": "sem citação"
 }
 
 ###
 
-PATCH https://woman-dictionary.onrender.com/women/65fcc01c1453ddca7574ef50
+PATCH https://woman-dictionary.onrender.com/mulheres/663138923bf7382cf2a92e42
 Content-Type: application/json
 
 {
@@ -60,16 +59,16 @@ Content-Type: application/json
 
 ###
 
-DELETE https://woman-dictionary.onrender.com/women/65fcc01c1453ddca7574ef50
+DELETE https://woman-dictionary.onrender.com/mulheres/663138f63bf7382cf2a92e4c
 
 ###
 
-GET https://woman-dictionary.onrender.com/hello
+GET https://woman-dictionary.onrender.com/ola
 
 ###
 
-GET https://woman-dictionary.onrender.com/time
+GET https://woman-dictionary.onrender.com/hora
 
 ###
 
-GET https://woman-dictionary.onrender.com/woman
+GET https://woman-dictionary.onrender.com/mulher
